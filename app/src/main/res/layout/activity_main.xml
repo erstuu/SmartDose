@@ -11,10 +11,39 @@
         android:id="@+id/greetingUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello,"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_button_google_style"
+        android:elevation="2dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:stateListAnimator="@null"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/asking"
+        app:layout_constraintStart_toStartOf="@+id/asking"
+        app:layout_constraintTop_toBottomOf="@+id/asking" />
+
+    <TextView
+        android:id="@+id/asking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are u sure wanted to logout?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greetingUser" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
