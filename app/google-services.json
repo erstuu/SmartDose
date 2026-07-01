@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "272310254603",
+    "project_id": "smart-dose-5316a",
+    "storage_bucket": "smart-dose-5316a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272310254603:android:c59fb3e6d6f7b7bd925b0e",
+        "android_client_info": {
+          "package_name": "com.example.smartdose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272310254603-b8a6amm3s7bobsfnkb1ju9rpnrv6qdv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartdose",
+            "certificate_hash": "421c520c2e1449919d0872ff14d18b2170932416"
+          }
+        },
+        {
+          "client_id": "272310254603-cme2mlvg1cqqj9598ga3mhennlvos0tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqTGHcQugZYC5FSIqTWAsJ9eWs2KpvD0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272310254603-cme2mlvg1cqqj9598ga3mhennlvos0tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
